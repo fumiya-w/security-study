@@ -1,1 +1,23 @@
+# 2026-07-05
+
+## Article
+- Title: clickjacking -MDN
+- Link: https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Clickjacking
+- Topic: clickjacking
+
+## Summary in Japanese
+- クリックジャック攻撃とは，ユーザが意図しないボタンやリンクをクリックさせる攻撃．
+-典型的な手法は，攻撃者が透明な <iframe> を重ねて，別のサイトなどのボタンを押させるサイトを作成する．
+-防御策は，サイト運営者目線で，埋め込みを許可するサイトを厳格に制御すること．
+
+## English Summary
+- Clickjacking attack is a attack that an attacker tricks the users into interacting with a target site or link in a way that they didn't intend.
+- A typical technique is for an attacker to overlay a transparent <iframe> and trick the user into clicking a button on another site.
+-From the perspective of a site operator, the primary defense is to strictly control which sites are allowed to embed the content.
+
+## Vocabulary
+- clickjacking
+- decoy site
+- iframe
+
 
