@@ -6,16 +6,14 @@
 - Topic: Cross-site leaks
 
 ## Summary in Japanese
-- クロスサイトリークは，ブラウザが「異なるサイト同士を完全には隔離できていない」ことを悪用し，
-攻撃者のサイトがターゲットサイトに関する情報を間接的に読み取る攻撃群．
--代表的な攻撃例は，「エラーイベントによるページ存在のリーク」，「ウィンドウ参照を用いたフレームカウント」，
-「CSPによるリダイレクトのリーク」
--防御策は，
+- クロスサイトリークは，ブラウザが「異なるサイト同士を完全には隔離できていない」ことを悪用し，攻撃者のサイトがターゲットサイトに関する情報を間接的に読み取る攻撃群．
+- 代表的な攻撃例は，「エラーイベントによるページ存在のリーク」，「ウィンドウ参照を用いたフレームカウント」，「CSPによるリダイレクトのリーク」
 
 ## English Summary
-- 
+- Cross-site leaks exploit the fact that browsers cannot fully isolate different sites, allowing an attacker’s site to indirectly infer information about a target site.
+- Representative attack techniques include “page‑existence leaks via error events,” “frame counting using window references,” and “redirect leaks caused by CSP.”
 
 ## Vocabulary
-- 
-- 
-- 
+- cross-site leaks
+- Web platform APIs
+
