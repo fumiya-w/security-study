@@ -7,10 +7,14 @@
 
 continuing from last time
 ## Summary in Japanese
-- 
+- 代表的な攻撃例は，「エラーイベントによるページ存在のリーク」，「ウィンドウ参照を用いたフレームカウント」，「CSPによるリダイレクトのリーク」
+- 「エラーイベントによるページ存在のリーク」は，{攻撃者は自分のサイトにターゲットの外部 URL を読み込ませるコードを置く．
+  ユーザのブラウザはその URL を読み込み，ブラウザは「成功（load）／失敗（error）」だけを攻撃者ページに返す．
+  攻撃者はこの成否の差分から，ページの存在やログイン状態などの情報を推測できてしまう．}といった感じ．
 
 ## English Summary
-- 
+- In an error‑event–based XS‑Leak, an attacker loads a target URL from their own site. The victim’s browser reports only load or error.
+  From this success/failure signal, the attacker can infer page existence or login state.
 
 ## Vocabulary
 - 
