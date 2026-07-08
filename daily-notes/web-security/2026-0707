@@ -17,7 +17,7 @@ continuing from last time
   From this success/failure signal, the attacker can infer page existence or login state.
 
 ## Vocabulary
-- 
-- 
-- 
+- load
+- error
+
 
