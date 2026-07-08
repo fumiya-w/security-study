@@ -1,0 +1,19 @@
+# 2026-07-08
+
+## Article
+- Title: Cross-site request forgery(CSRF) -MDN
+- Link: https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/CSRF
+- Topic: Cross-site request forgery
+
+## Summary in Japanese
+- CSRFは，攻撃者がユーザーのブラウザを騙して，ユーザー本人の資格情報（セッションクッキー）付きで，勝手に状態変更リクエストを送らせる攻撃．
+- 攻撃例は，POST を使う攻撃（form + submit）とGET を使う攻撃（img src）が存在する．
+
+## English Summary
+- CSRF is an attack in which an adversary tricks a user's browser into sending state‑changing requests on behalf of the user, accompanied by the user’s own credentials (session cookies).
+  Attack techniques include POST‑based attacks using a form + submit() and GET‑based attacks using an img tag.
+
+## Vocabulary
+- 
+- 
+- 
